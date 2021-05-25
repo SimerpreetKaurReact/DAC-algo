@@ -10,7 +10,7 @@ console.log(allConstructDyanamic("purple",["purp","p","ur","le","purpl" ]))
 
 function allConstructRecursive(target,wordBank){
     let response=[]
-    if(target==="") return [[]]
+    if(target==="") return [[]] 
     
     for(const word of wordBank){
         
